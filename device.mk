@@ -43,3 +43,7 @@ PRODUCT_PACKAGES += \
     libnfc \
     libnfc_jni \
     Nfc
+
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
