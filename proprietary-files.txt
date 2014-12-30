@@ -1,0 +1,22 @@
+# Broadcom (Wi-Fi) firmware
+etc/firmware/fw_bcmdhd_apsta.bin
+etc/firmware/fw_bcmdhd.bin
+
+# Camera
+bin/mm-qcamera-daemon
+
+# NFC
+lib/hw/nfc.default.so
+lib/hw/nfc.lg.so
+vendor/firmware/libpn544_fw.so
+
+# Radio
+bin/netmgrd
+bin/rild
+lib/libril.so
+
+# Sensors
+bin/sensors.qcom
+
+# Thermal
+bin/thermal-engine
