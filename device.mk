@@ -26,11 +26,10 @@ PRODUCT_COPY_FILES += \
 
 # NFC packages
 PRODUCT_PACKAGES += \
-    nfc_nci.pn54x.default
-
-# NFC config
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
+    nfc.default \
+    libnfc \
+    libnfc_jni \
+    Nfc
 
 # Sensors
 PRODUCT_COPY_FILES += \
