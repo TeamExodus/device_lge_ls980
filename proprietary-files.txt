@@ -1,22 +1,20 @@
-# Broadcom (Wi-Fi) firmware
-etc/firmware/fw_bcmdhd_apsta.bin
-etc/firmware/fw_bcmdhd.bin
-
-# Camera
-bin/mm-qcamera-daemon
+# ADSP
+etc/firmware/adsp.b00
+etc/firmware/adsp.b01
+etc/firmware/adsp.b02
+etc/firmware/adsp.b03
+etc/firmware/adsp.b04
+etc/firmware/adsp.b05
+etc/firmware/adsp.b06
+etc/firmware/adsp.b07
+etc/firmware/adsp.b08
+etc/firmware/adsp.b09
+etc/firmware/adsp.b10
+etc/firmware/adsp.b11
+etc/firmware/adsp.b12
+etc/firmware/adsp.mdt
 
 # NFC
 lib/hw/nfc.default.so
 lib/hw/nfc.lg.so
 vendor/firmware/libpn544_fw.so
-
-# Radio
-bin/netmgrd
-bin/rild
-lib/libril.so
-
-# Sensors
-bin/sensors.qcom
-
-# Thermal
-bin/thermal-engine
