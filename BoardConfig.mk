@@ -21,3 +21,6 @@ TARGET_KERNEL_CONFIG := cyanogenmod_ls980_defconfig
 TARGET_OTA_ASSERT_DEVICE := ls980,g2,galbi
 
 G2_DTS_TARGET := msm8974-g2-spr
+
+# RIL
+BOARD_RIL_CLASS := ../../../device/lge/ls980/ril/
