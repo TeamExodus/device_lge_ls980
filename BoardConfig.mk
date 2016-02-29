@@ -16,7 +16,7 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_ls980_defconfig
+TARGET_KERNEL_CONFIG := exodus_ls980_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := ls980,g2,galbi
 
