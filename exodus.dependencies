@@ -1,6 +1,14 @@
 [
   {
-    "repository": "usmcamgrimm/device_lge_g2-common",
+    "repository": "TeamExodus/device_lge_g2-common",
     "target_path": "device/lge/g2-common"
+  },
+  {
+    "repository": "TeamExodus/vendor_lge_ls980",
+    "target_path": "vendor/lge/ls980"
+  },
+  {
+    "repository": "TeamExodus/vendor_lge_g2-common",
+    "target_path": "vendor/lge/g2-common"
   }
 ]
